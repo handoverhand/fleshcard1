@@ -1,4 +1,5 @@
 const React = require('react');
+const Navbar = require('./Navbar');
 
 function Layout({ children }) {
   return (
@@ -9,9 +10,12 @@ function Layout({ children }) {
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" />
         <script defer src="/js/client.js" />
         <meta charSet="UTF-8" />
-        <title>Document</title>
+        <title>FlashCards</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
