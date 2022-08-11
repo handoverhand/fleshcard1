@@ -7,7 +7,7 @@ module.exports = function Home({ tasks }) {
     <Layout>
       <div className="container">
         {tasks.map((task) => (
-          <Task key={task.id} question={task.question} />
+          <Task key={task.id} task={task.id} question={task.question} />
         ))}
       </div>
     </Layout>
