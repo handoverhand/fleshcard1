@@ -1,5 +1,6 @@
 const express = require('express');
 const ssr = require('../middleware/ssr');
+
 const config = (app) => {
   app.use(express.urlencoded({ extended: true }));
   app.use(express.json());
