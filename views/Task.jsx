@@ -5,7 +5,10 @@ module.exports = function Task({question}) {
     <div className="card" style={{width: "18rem"}}>
       <div className="card-body">
         <h5 className="card-title">{question}</h5>
-        <a href="#" className="btn btn-primary">Перейти куда-нибудь</a>
+        
+        <input className="input-title" type="text"></input>
+        <input className="input-title" type="submit" value="Ответить"></input>
+
       </div>
     </div>
   );
