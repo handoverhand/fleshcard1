@@ -7,5 +7,10 @@
 
 .container {
    display: flex;
-   background-color: #DDF7F8;
+   background-color: #9AB8BA;
 }
+
+.card-body {
+   background-color: #DDF7F8;
+
+
