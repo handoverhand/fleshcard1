@@ -2,17 +2,17 @@ module.exports = {
   async up(queryInterface) {
     await queryInterface.bulkInsert('Topics', [
       {
-        topicName: 'Эльбрус',
+        topicName: 'ЭЛЬБРУС',
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        topicName: 'IT',
+        topicName: 'эЛьБрУс',
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        topicName: 'Футбол',
+        topicName: 'ELBRUS',
         createdAt: new Date(),
         updatedAt: new Date(),
       },
