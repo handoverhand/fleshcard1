@@ -1,2 +1,31 @@
-.navbar-brand {
+/* .navbar-brand {
    text-align: center !important;
+}
+
+body {
+  background-color: brown;
+}
+   */
+
+body {
+  background: rgb(143, 9, 196);;
+}
+
+   a {
+    text-decoration: none;
+   }
+
+   .c1 {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    column-gap: 10px;
+   }
+
+   ul {
+    list-style: none;
+    color: white
+   }
