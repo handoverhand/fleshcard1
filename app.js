@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 require('@babel/register');
 const express = require('express');
 const config = require('./config/config');
