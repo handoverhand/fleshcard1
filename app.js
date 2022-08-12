@@ -6,7 +6,7 @@ const homeRouter = require('./routes/homeRouts');
 const app = express();
 const PORT = 3000;
 config(app);
-app.use('/task', homeRouter);
+app.use('/topic', homeRouter);
 
 app.listen(PORT, () => {
   console.log('its working');

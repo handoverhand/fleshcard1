@@ -1,13 +1,13 @@
 const router = require('express').Router();
 const Home = require('../views/Home');
-const { Task } = require('../db/models');
+const { Topic } = require('../db/models');
 
 router.get('/', async (req, res) => {
-  const tasks = await Task.findAll({
+  const topics = await Topic.findAll({
     raw: true,
   });
   // console.log(tasks)
-  res.renderComponent(Home, { tasks });
+  res.renderComponent(Home, { topics });
 });
 
 module.exports = router;

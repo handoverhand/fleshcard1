@@ -1,11 +1,17 @@
 const React = require('react');
 
-module.exports = function Task({ task, question }) {
+module.exports = function Task({}) {
   return (
-    <div className="card" style={{ width: '18rem' }}>
-      <a href={task}>
-        <h5 className="card-title">{question}</h5>
-      </a>
+    <div className="container">
+      <div className="question">
+        {}
+      </div>
+      <form className="answers">
+        <input type="submit" />
+        <input type="submit" />
+        <input type="submit" />
+        <input type="submit" />
+      </form>
     </div>
   );
 };
