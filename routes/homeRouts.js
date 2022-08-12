@@ -4,10 +4,10 @@ const { Task } = require('../db/models');
 
 router.get('/', async (req, res) => {
   const tasks = await Task.findAll({
-    raw:true
-  })
+    raw: true,
+  });
   // console.log(tasks)
-  res.renderComponent(Home, {tasks});
+  res.renderComponent(Home, { tasks });
 });
 
 module.exports = router;

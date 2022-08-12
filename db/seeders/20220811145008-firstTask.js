@@ -3,25 +3,36 @@ module.exports = {
     await queryInterface.bulkInsert('Tasks', [
       {
         question: 'Первая буква алфавита',
-        answer: 'а',
+        answer1: 'а',
+        answer2: 'б',
+        answer3: 'в',
+        trueAnswer: 'г',
+        topicId: 1,
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
       },
       {
         question: 'Вторая буква алфавита',
-        answer: 'б',
+        answer1: 'а',
+        answer2: 'б',
+        answer3: 'в',
+        trueAnswer: 'г',
+        topicId: 2,
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
       },
       {
         question: 'Поледняя буква алфавита',
-        answer: 'я',
+        answer1: 'а',
+        answer2: 'б',
+        answer3: 'в',
+        trueAnswer: 'г',
+        topicId: 3,
         createdAt: new Date(),
-        updatedAt: new Date()
+        updatedAt: new Date(),
       },
     ]);
   },
-  11234
   async down(queryInterface) {
     await queryInterface.bulkDelete('Tasks');
   },
